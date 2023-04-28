@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.options{
+    text-align: center;
+    
+    a{
+        margin-left: 10px;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+header{
+    background-color: rgb(68, 68, 206);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+    #btn-movie{
+        margin-left: 20px;
+        border-radius: 8px;
+        width: 100px;
+        background-color: white;
+        color: black;
+        margin-top: 2px;
+        transition: all 0.5s;
+
+      
+
+    }
+
+}
+.btn-group{
+    .btn{
+        text-align: center !important;
+        align-items: center !important;
+        background-color: white !important;
+        margin-left: 20px !important;
+        color: black !important;
+
+        
+    }
+}
+
+.container{
+   
+    display: flex;
+    justify-content: baseline;
+    margin-top: 3% ;
+    margin-left: 26%;
+   #name{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+
+ 
+   }
+   .card{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    
+
+   }
+ 
+    .card{
+        position: relative;
+        height: 200px;
+        width: 200px;
+        margin-left: 20px;
+        display: inline-block;
+        text-align: center;
+        
+        
+       
+       
+       &:hover  {
+        transform: scale(1.1);
+        transition: 0.5s;
+        cursor: pointer;
+       
+       
+       }
+       
+     
+
+        #img{
+           
+            z-index: 2;
+        }
+        .top-right {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            z-index: 1;
+            
+            
+            p{
+                background-color: rgb(153, 213, 250, 0.7);
+                width: 100px;
+                
+            }
+        }
+      
+
+        #language{
+            width: 20px;
+            height: 20px;
+            
+            
+            
+           
+            
+            
+        }  
+        .btn-seans{
+            display: flex;
+            justify-content: center;
+
+           
+            margin-top: 10px;
+            border-radius: 15px;
+
+           
+
+            #age{
+                width: 30px;
+                height: 30px;
+                
+                
+                
+                
+
+            }
+
+            button{
+                
+                background-color:  rgb(68, 68, 206);
+                color:  solid black ;
+                width: 70px;
+                border-radius: 5px;
+            }
+             
+         }
+         
+    }
+
+   
+    
+}
+
+
+
+
+
+
+
